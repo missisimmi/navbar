@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Navbar 1</title>
+    <link rel="stylesheet" href="nvbar1style.css">
+    <script src="first.js"></script>
+    
+</head>
+<body>
+    <nav>
+    <ul class="topnav" id="dropdownClick">
+        <li><a href="#home">home</a></li>
+        <li><a href="#home">contact  us</a></li>
+        <li><a href="#home">about</a></li>
+        <li class="topnav-right"><a href="#home">sign up</a></li>
+        <li class="topnav-right"><a href="#home">sign in</a></li>
+        <li class="topnav-right"><a href="#home">login</a></li>
+        <li class="drop"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+    </ul>
+    </nav>
+    <div class="container" id="section1gradient">
+        <div class="row">
+        <div class="col-6 " >
+            <div class="leftside-col">
+            <h1 class="large">Come JOIN us !</h1>
+            </div>
+              <form>
+                  <div class="leftside-col">
+                      <h2>Username</h2>
+                      <input class="inputbox" name="Username" type="text" placeholder="Username">
+                      <h2>Password</h2>
+                        <input class="inputbox" name="password" type="text" placeholder="Password">
+
+                     
+                      <h2><input type="button" value="Sign up"></h2>
+                      
+                  </div>
+        
+    </form>
+                
+            </div>
+            
+            
+            <div class="col-6" >
+            <div class="rightside-col">
+                <div class="videocontainer">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/HAcYoKJBwco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    </div>
+            </div>
+            </div>
+        </div>
+        
+        </div>
+    <header>
+    <h1>HEY!! , THERE YOU GO.</h1>
+        </header>
+    <div class="container">
+    <div class="row">
+        <div class="col-4" >
+        <div class="box">
+            <img src="screenshots/chat.jpg" alt="image1"/>
+            <br>
+            <label><b>CHAT with me</b></label>
+            <p> For any queries regarding our website you can contact me , or if you feel shyd then you can chat !!</p>
+            </div>
+        </div>
+       <div class="col-4" >
+        <div class="box">
+            <img src="screenshots/music.png" alt="image1"><br>
+            <label><b>SING with me</b></label>
+            <p> For any queries regarding our website you can contact me , or if you feel shyd then you can chat !!</p>
+            </div>
+        </div><div class="col-4" >
+        <div class="box">
+            <img src="screenshots/dance.png" alt="image1"><br>
+            <label><b>DANCE with me</b></label>
+            <p> For any queries regarding our website you can contact me , or if you feel shyd then you can chat !!</p>
+            </div>
+        </div>
+        </div>    
+    <div class="row">
+        <div class="col-12">
+        <button class="learnmore">Learn more</button>
+        </div>
+        </div>
+   
+    </div>
+    <hr>
+    <div class="container">
+    <div class="row">
+        <div class="col-7">.
+        <article><p>Dance is a performing art form consisting of purposefully selected sequences of human movement. This movement has aesthetic and symbolic value, and is acknowledged as dance by performers and observers within a particular culture.
+            </p></article>
+        </div>
+        <div class="col-5">
+        <img src="screenshots/sara.jpg" alt="sara ali khan">
+        </div>
+        </div>
+    </div>
+  <footer class="foot">
+      <div class="row">
+      <div class="col-3">
+          <h1> COMPANY</h1>
+          <ul>
+          <li>CONTACT</li>
+              <li>MOBILE</li>
+              <li>SKYPE</li>
+              <li>CON-CALL</li>
+          </ul>
+          
+          </div>
+          <div class="col-3">
+          <h1> ABOUT</h1>
+          <ul>
+          <li>CONTACT</li>
+              <li>mobile</li>
+              <li>skype</li>
+              <li>Call</li>
+          </ul>
+          
+          </div>
+          <div class="col-3">
+          <h1> CONTACT</h1>
+          <ul>
+          <li>CONTACT</li>
+              <li>mobile</li>
+              <li>skype</li>
+              <li>Call</li>
+          </ul>
+          
+          </div>
+          <div class="col-3">
+          <h1>REGISTER</h1>
+          <ul>
+          <li>Here</li>
+              <li>mobile</li>
+              <li>skype</li>
+              <li>Call</li>
+          </ul>
+          
+          </div>
+      </div>
+    </footer>
+    <script>
+        function dropdownmenu()
+        {
+            var x = document.getElementById("dropdownClick")
+            if(x.className==="topnav")
+                    {
+                        x.className +="  responsive";
+                    }else
+                        {
+                            x.className ="topnav";
+                        }
+            
+        }
+    </script>
+    
+    </body>
+</html>

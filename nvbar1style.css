@@ -1,0 +1,276 @@
+   body{
+
+            margin:0;
+        }
+.container
+{
+    width: 100%;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+}        nav{
+            display:block;
+            
+            margin:0;
+            width:100%;
+           
+        }
+        nav ul{
+            margin: 0;
+            padding:0;
+            overflow: hidden;
+            background : linear-gradient(to right,firebrick,white);
+                
+        }
+        nav ul li{
+            float: left;
+            list-style: none;
+        
+            
+            
+        }
+     nav ul li.topnav-right
+        {
+            float: right;
+            color: black;
+        }
+        nav ul li.topnav-right a
+        {
+            
+            color: firebrick;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            margin: 10px;
+            padding: 20px;
+            text-transform: uppercase;
+                        text-align: center;
+            color:white;
+            font-style: italic;
+        }
+        nav ul li a:hover{
+            
+            color:lightcoral;
+            font-size: 27px;
+            opacity:1;
+        }
+ul.topnav li.drop{
+    display:none;
+}
+/*#################### custom styles ##########################*/
+#section1gradient{
+    background: linear-gradient(to bottom,whitesmoke,gray);
+}
+.row{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;
+
+}
+.col-3{width:25%;
+
+}
+.col-4{width:33.33%;
+
+    }
+.col-5{width:41.66%;}
+.col-6{width:50%;
+color:firebrick;
+    
+}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:25%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+
+.col-12{width:100%;}
+
+h1.large
+{
+    color: firebrick;
+    font-size: 56px;
+    margin: 0;
+}
+
+form h2
+{
+    color:firebrick;
+}
+.leftside-col
+{
+    margin-left: 30%;
+}
+div.rightside-col{
+    margin-left: 15%;
+}
+input[type="text"]{
+    width: 400px;
+    font-size: 20px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+/*#################### third conatiner ##########################*/
+article p{
+    padding: 20px;
+    margin: 40px;
+    font-size: 35px;
+    color: dimgray;
+   
+
+}
+div.col-5 img
+{
+    display: block;
+margin:auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: -2px -2px 20px 2px rgba(0,0,0,.15),2px 2px 17px 2px rgba(0,0,0,1);
+    
+}
+/*#################### second conatiner ##########################*/
+header{
+    font-size:30px;
+    text-align: center;
+    color: firebrick;
+}
+div.box{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),0 2px 3px 0 rgba(0,0,0,0.1);
+   padding:36px 24px 40px 24px;
+    margin:30px;
+    margin-top: 0;
+    background: linear-gradient(to top,gray,white);
+    border-radius: 20px;
+}
+.box p{
+    text-align: center;
+    font-size: 28px;
+}
+.box label{
+    font-size:30px;
+    color: firebrick;
+ }
+.box img{
+    width: 100px;
+    height: 100px;
+}
+button
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    text-align:  center;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+button.learnmore{
+    display: block;
+    margin: auto;
+}
+
+/*#################### footer##########################*/
+footer.foot{
+   
+    background-color: firebrick;
+    opacity: 0.7;
+    
+}
+footer.foot h1{
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+    
+}
+ul li{
+    color:antiquewhite;
+    font-size:20px;
+    
+}
+ul{
+  margin-left: 20px;
+    padding: 20px;
+}
+/*#################### mobile ##########################*/
+        @media screen and (max-width:680px){
+            ul.topnav li:not(:nth-child(1)){
+
+            display:none;
+            }
+            ul.topnav li.drop{
+                display: block;
+                float: right;
+            }
+            ul.topnav.responsive
+            {
+                position: relative;
+            }
+            ul.topnav.responsive li
+            {
+                display: inline;
+                float: none;
+                
+            }
+            ul.topnav.responsive li a
+            {
+                display: block;
+                text-align: left;
+                
+            }
+            ul.topnav.responsive li.drop
+            {
+                position: absolute;
+                top: 0;
+                right:0;
+                
+            }
+            .col-5 img{
+                width: 100%;
+            }
+            ul {
+                width: 100%;
+            }
+            .col-6,.col-4
+            ,.col-5,
+            .col-7,.foot{
+                width: 100%;
+                margin: 0;
+            }
+            div.box{
+                padding:5px;
+            }
+            div.leftside-col,
+            div.rightside-col{
+                
+                margin: 15px;
+            }
+            input[type="text"]{
+                width: 350px;
+            }
+            
+.videocontainer iframe{
+    position: relative;
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+}
+}
